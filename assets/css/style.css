@@ -40,6 +40,7 @@ header {
     width: 50%;
     height: auto;
     border-right: white 1% solid;  
+    padding-bottom: 5%;
 }
 
 .player-area img {
@@ -48,6 +49,7 @@ header {
     margin-right: auto;
     width: 50%;
     height: 250px;
+    
     
 }
 
@@ -63,6 +65,7 @@ header {
     width: 50%;
     float: right;
     border-left: white 1% solid;
+    padding-bottom: 5%;
 }
 
 .computer-area img {
@@ -85,10 +88,12 @@ header {
     height: auto;
     margin: 0;
     position: relative;
-    padding-top: 5%;
+    padding-top: 10%;
+    text-align: center;
 }
 
 .button-container p {
+    margin-top: 5%;
     position: relative;
     text-align: center;
     font-size: 150%;
