@@ -13,15 +13,19 @@ header {
     font-size: 170%;
     text-align: center;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #round-number {
-    color: rgb(122, 198, 9);
+    color: #7ac609;
 }
 
 .gameplay-area {
     width: 100%;
+    height: auto;
+    border: #7ac609 2px;
 }
+
 
 .scores {
     text-align: center;
@@ -35,6 +39,16 @@ header {
     float: left;
     width: 50%;
     height: auto;
+    border-right: white 1% solid;  
+}
+
+.player-area img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 250px;
+    
 }
 
 .player-id {
@@ -48,6 +62,15 @@ header {
     height: auto;
     width: 50%;
     float: right;
+    border-left: white 1% solid;
+}
+
+.computer-area img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 250px;
 }
 
 .computer-id {
@@ -57,10 +80,29 @@ header {
     color: #4672ea;
 }
 
+.button-container {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    position: relative;
+    padding-top: 5%;
+}
+
+.button-container p {
+    position: relative;
+    text-align: center;
+    font-size: 150%;
+    color: #7ac609;
+}
+
 
 .choice {
     display: inline-block;
-    
-    
+    background-color: white;
+    border-color: white 2px solid;
+}
+
+.choice:hover {
+    border: #ea4646 5px solid;
 }
 
