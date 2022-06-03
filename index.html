@@ -7,7 +7,14 @@
     
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Rock, Paper, Scissor, Lizard, Spock Game</title>
+
+<!--Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
 
 <!--Header-->
@@ -17,6 +24,34 @@
         <h1>Rock, Paper, Scissors, Lizard, Spock</h1>
 
     </header>
+
+    <section>
+        <div class="round">Round Number: <span id="round-number">1</span></div>
+    </section>
+
+
+
+<!--Player area-->
+
+<section id="player1" class="player-area">
+    <p class="player-id">Player</p>
+    <div class="selected-choice">
+        <h4 class="scores">Your score: <span id="player-score">0</span></h4>
+        <img id="rpsls-image" src="assets/images/cartoon-rpsls.jpeg" alt="Rock, Paper, Scissors, Lizard, Spock">
+    </div>
+        
+</section>
+
+<!--Computer player area-->
+
+<section id="computer-player" class="computer-area">
+    <div>
+        <p class="computer-id">Computer</p>
+        <h4 class="scores">Computer score: <span id="computer-score">0</span></h4>
+        <img id="rpsls-image" src="assets/images/cartoon-rpsls.jpeg" alt="Rock, Paper, Scissors, Lizard, Spock">
+    </div>
+
+</section>
 
 <!--Game play section-->
 
@@ -46,31 +81,6 @@
         </button>
     </div>
 </section>
-
-<!--Player area-->
-
-<section id="player1" class="player-area">
-    <p class="player-id">Player</p>
-    <div class="selected-choice">
-        <h4 class="scores">Your score: <span id="player-score">0</span></h4>
-        <img id="rpsls-image" src="assets/images/cartoon-rpsls.jpeg" alt="Rock, Paper, Scissors, Lizard, Spock">
-    </div>
-        
-</section>
-
-<!--Computer player area-->
-
-<section id="computer-player" class="computer-area">
-    <div>
-        <p class="computer-id">Computer</p>
-        <h4 class="scores">Computer score: <span id="computer-score">0</span></h4>
-        <img id="rpsls-image" src="assets/images/cartoon-rpsls.jpeg" alt="Rock, Paper, Scissors, Lizard, Spock">
-    </div>
-
-
-
-
-
 
     <script src="assets/js/script.js"></script>
 </body>
