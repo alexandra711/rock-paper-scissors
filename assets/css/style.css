@@ -1,7 +1,13 @@
 body {
-    font-family: 'Roboto Mono', monospace; }
+    font-family: 'Roboto Mono', monospace;
+    background-color: white;
+    color: #000000;
+}
+
+
+
 
 .choice {
     display: inline-block;
-    
 }
+
