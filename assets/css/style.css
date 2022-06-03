@@ -23,18 +23,38 @@ header {
     width: 100%;
 }
 
+.scores {
+    text-align: center;
+    color: #000000;
+    font-size: 125%;
+    position: relative;
+    padding-bottom:2.5%
+}
+
 .player-area {
     float: left;
     width: 50%;
     height: auto;
-    
+}
+
+.player-id {
+    position: relative;
+    text-align: center;
+    font-size: 150%;
+    color: #ea4646;
 }
 
 .computer-area {
     height: auto;
     width: 50%;
     float: right;
-    
+}
+
+.computer-id {
+    position: relative;
+    text-align: center;
+    font-size: 150%;
+    color: #4672ea;
 }
 
 
