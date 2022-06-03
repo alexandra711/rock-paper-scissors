@@ -4,6 +4,17 @@ body {
     color: #000000;
 }
 
+header {
+    font-size: 150%;
+    text-align: center;
+}
+
+.round {
+    font-size: 170%;
+    text-align: center;
+    margin-top: 5%;
+}
+
 
 
 
