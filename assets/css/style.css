@@ -15,7 +15,10 @@ header {
     margin-top: 5%;
 }
 
-
+#round-number {
+    color: rgb(122, 198, 9);
+    
+}
 
 
 .choice {
