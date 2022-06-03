@@ -17,11 +17,29 @@ header {
 
 #round-number {
     color: rgb(122, 198, 9);
+}
+
+.gameplay-area {
+    width: 100%;
+}
+
+.player-area {
+    float: left;
+    width: 50%;
+    height: auto;
+    
+}
+
+.computer-area {
+    height: auto;
+    width: 50%;
+    float: right;
     
 }
 
 
 .choice {
     display: inline-block;
+    
 }
 
