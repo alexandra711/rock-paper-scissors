@@ -1,40 +1,71 @@
-.addEventListener("DOMContentLoaded", function () {
-    let allButtons = document.getElementsByClassName("choice")
+
+let allButtons = document.getElementsByClassName("choice")
     for (let button of allButtons) {
-        button.addEventListener("click", function () {
-            let userAnswer = this.getAttribute("data-type");
+        button.addEventListener("click"), function () {
+            let userAnswer = this.getAttribute("choice");
             playGame(userAnswer);
-        })
+        }
     }
-})
-
-
 
 function displayUserRock() {
-    document.getElementById("choice") .src="assets/images/rock.jpeg";
+    document.getElementsByClassName("choice") .src="assets/images/rock.jpeg";
 }
 
 function displayUserPaper() {
-    document.getElementById("choice") .src="assets/images/paper.jpeg";
+    document.getElementsByClassName("choice") .src="assets/images/paper.jpeg";
 }
 
 function displayUserScissors() {
-    document.getElementById("choice") .src="assets/images/scissors.jpeg";
+    document.getElementsByClassName("choice") .src="assets/images/scissors.jpeg";
 }
 
 function displayUserLizard() {
-    document.getElementById("choice") .src="assets/images/lizard.jpeg";
+    document.getElementsByClassName("choice") .src="assets/images/lizard.jpeg";
 }
 
 function displayUserSpock() {
-    document.getElementById("choice") .src="assets/images/spock.jpeg";
+    document.getElementsByClassName("choice") .src="assets/images/spock.jpeg";
 }
 
+function displayComputerRock() {
+    document.getElementsByClassName("computer-choice") .src="assets/images/rock.jpeg";
+}
+
+function displayComputerPaper() {
+    document.getElementsByClassName("computer-choice") .src="assets/images/paper.jpeg";
+}
+
+function displayComputerScissors() {
+    document.getElementsByClassName("computer-choice") .src="assets/images/scissors.jpeg";
+}
+
+function displayComputerLizard() {
+    document.getElementsByClassName("computer-choice") .src="assets/images/lizard.jpeg";
+}
+
+function displayComputerSpock() {
+    document.getElementsByClassName("computer-choice") .src="assets/images/spock.jpeg";
+}
 
 let options = ["Rock", "Paper", "Scissors", "Lizard", "Spock"];
-let randomComputerAnswer = options[Math.floor(Math.random)];
+let randomComputerAnswer = options[Math.floor(Math.random() * options.length)];
+    
 
 if (randomComputerAnswer === "Rock" && userAnswer === "Paper") {
-
+    displayComputerRock(randomComputerAnswer);
+    increaseRoundNumber();
+    increasePlayerScore(); 
 }
+
+ else if (randomComputerAnswer === "Paper" && userAnswer === "Scissors") {
+    displayComputerPaper(randomComputerAnswer);
+    increaseRoundNumber(); 
+    increasePlayerScore();
+ }
+
+ 
+
+
+
+
 
